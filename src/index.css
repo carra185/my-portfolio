@@ -32,30 +32,12 @@ nav a:hover {
   color: #2563eb;
 }
 
-/* subtle underline on hover */
-nav a::after {
-  content: "";
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  left: 0;
-  bottom: -4px;
-  background: #2563eb;
-  transition: 0.2s;
-}
-
-nav a:hover::after {
-  width: 100%;
-}
-
-/* MAIN */
 main {
   max-width: 750px;
   margin: 0 auto;
   padding: 3rem 1.5rem;
 }
 
-/* HERO */
 section:first-child {
   text-align: center;
   margin-bottom: 4rem;
@@ -82,7 +64,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* PROJECT CARDS (depth added) */
 section div {
   background: white;
   padding: 1.2rem;
@@ -105,7 +86,7 @@ section div p {
   margin-top: 0.3rem;
 }
 
-/* ACCENT LINE (subtle color pop) */
+/* ACCENT LINE */
 h2::before {
   content: "";
   display: inline-block;
@@ -117,14 +98,12 @@ h2::before {
   vertical-align: middle;
 }
 
-/* BLOG IMAGE */
 img {
   margin-top: 1rem;
   border-radius: 10px;
   max-width: 100%;
 }
 
-/* INPUT + BUTTON (if used later) */
 input, button {
   border-radius: 8px;
 }

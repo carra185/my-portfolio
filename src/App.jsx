@@ -53,26 +53,33 @@ function Blog() {
     <main>
       <h1>Spring Break 2026</h1>
 
-      <p>
-        nup.
-      </p>
-
-<p>         </p>
-
-      <p>
-        bup.
-      </p>
-
-      <p>
-        yup.
-      </p>
-
-      {/* Example image */}
       <img
         src="https://preview.redd.it/dogs-with-smiles-this-is-my-grandmas-pup-punky-v0-wfxgpbsridra1.jpg?width=1080&crop=smart&auto=webp&s=cb898684471dea9e52cf14b741c5b7c12cbd52d2"
         alt="blog img"
         style={{ marginTop: "20px" }}
       />
+
+      <p>
+      Yeah..
+      </p>
+
+      <p>
+      Spring break was pretty wild.
+      </p>
+
+      <p>
+      I picked up this one guy on the side of the road. Dirty, rude, chunky, but something about those eyes.
+      </p>
+
+      <p>
+      Only 14 inches tall, but his aura? 10 feet tall. The second I opened the passenger door you could feel his presence. He was smug. Gave a litte smirk when getting in the car, didn't say a word, barley acknowledged me.
+      </p>
+
+      <p>
+      
+      </p>
+
+
     </main>
   );
 }
